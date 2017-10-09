@@ -2,11 +2,14 @@
 
 This project was generated as a coding assignment for Charon Tech. This site in no way is associated with the Charon Tech. All commands should work below except for testing. 
 
-Please note that you will need to install JSON Server(https://github.com/typicode/json-server) to simulate backend data.  
-npm install -g json-server
-After Json-server install, please run command '$ json-server --watch db.json --port 3004'. The Port must be set to 3004.
+Modules below should be installed but just incase.
 
-Please install Angular Cli(https://github.com/angular/angular-cli) and run 'ng serve'. Some magic should happen on port 4200.
+Please note that you may need to install JSON Server(https://github.com/typicode/json-server) to simulate backend data.  
+npm install -g json-server
+
+Please run command *****'json-server --watch db.json --port 3004'****. The Port must be set to 3004.
+
+If needed, please install Angular Cli(https://github.com/angular/angular-cli) and run *****'ng serve --host 0.0.0.0 --port 4201'*****. Some magic should happen on port 4200. 
 
 Thank you.
 
