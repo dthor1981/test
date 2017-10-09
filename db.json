@@ -1,0 +1,80 @@
+{
+  "widgets": [
+    {
+      "id": 1,
+      "img": "",
+      "name": "Customers",
+      "description": "I love Charon!",
+      "featured": false
+    },
+    {
+      "id": 2,
+      "img": "",
+      "name": "Specialties",
+      "description": "I love Charon!",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "img": "",
+      "name": "Technologies",
+      "description": "I love Charon!",
+      "featured": true
+    }
+  ],
+  "technologies": [
+    {
+      "id": 1,
+      "img": "",
+      "name": "Javascript",
+      "description": "I love Charon!",
+      "featured": false
+    },
+    {
+      "id": 2,
+      "img": "",
+      "name": "HTML",
+      "description": "I love Charon!",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "img": "",
+      "name": "CSS",
+      "description": "I love Charon!",
+      "featured": true
+    }
+  ],
+  "specialties": [
+    {
+      "id": 2,
+      "img": "",
+      "name": "Cooking",
+      "description": "I love Charon!",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "img": "",
+      "name": "BreakDancing",
+      "description": "I love Charon!",
+      "featured": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 2,
+      "img": "",
+      "name": "Government",
+      "description": "I love Charon!",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "img": "",
+      "name": "Business",
+      "description": "I love Charon!",
+      "featured": true
+    }
+  ]
+}
