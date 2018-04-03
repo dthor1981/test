@@ -1,0 +1,13 @@
+nav {
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 0 0 .5rem;
+}
+
+nav > a{
+    width: 100px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+    border-right: solid 1px #ddd
+}

@@ -1,0 +1,66 @@
+<div class="main-top-container">
+  <div>
+    <h4>Alerts(100)</h4>
+  </div>
+  <div>
+    <h4>Search</h4> 
+  </div>
+  <div>
+  <input class="search-input" matInput  value="Sushi">
+  </div>
+</div> 
+
+<div class="example-container mat-elevation-z8">
+  <mat-table #table [dataSource]="alerts">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+    <!-- AlertId Column -->
+    <ng-container matColumnDef="AlertId">
+      <mat-header-cell *matHeaderCellDef> AlertId </mat-header-cell>
+      <mat-cell *matCellDef="let alert"> {{alert.AlertId}} </mat-cell>
+    </ng-container>
+
+    <!-- AlertTime Column -->
+    <ng-container matColumnDef="AlertTime">
+      <mat-header-cell *matHeaderCellDef> AlertTime </mat-header-cell>
+      <mat-cell *matCellDef="let alert"> {{alert.AlertTime}} </mat-cell>
+    </ng-container>
+
+    <!-- Severity Column -->
+    <ng-container matColumnDef="Severity">
+      <mat-header-cell *matHeaderCellDef> Severity </mat-header-cell>
+      <mat-cell *matCellDef="let alert"> {{alert.Severity}} </mat-cell>
+    </ng-container>
+
+    <!-- ClientIP Column -->
+    <ng-container matColumnDef="ClientIP">
+      <mat-header-cell *matHeaderCellDef> ClientIP </mat-header-cell>
+      <mat-cell *matCellDef="let alert"> {{alert.ClientIP}} </mat-cell>
+    </ng-container>
+
+      <!-- ServerIP Column -->
+    <ng-container matColumnDef="ServerIP">
+      <mat-header-cell *matHeaderCellDef> ServerIP </mat-header-cell>
+      <mat-cell *matCellDef="let alert"> {{alert.ServerIP}} </mat-cell>
+    </ng-container>
+
+  <!-- Protocol Column -->
+    <ng-container matColumnDef="Protocol">
+      <mat-header-cell *matHeaderCellDef> Protocol</mat-header-cell>
+      <mat-cell *matCellDef="let alert"> {{alert.Protocol}} </mat-cell>
+    </ng-container>
+
+      <!-- ClientCountry Column -->
+    <ng-container matColumnDef="ClientCountry">
+      <mat-header-cell *matHeaderCellDef> ClientCountry </mat-header-cell>
+      <mat-cell *matCellDef="let alert"> {{alert.ClientCountry}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</div>
+
+

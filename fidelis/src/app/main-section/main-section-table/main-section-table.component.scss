@@ -1,0 +1,55 @@
+h3{
+    font-weight: 200;
+    letter-spacing: 2px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px
+}
+
+h4{
+font-weight: 200;
+-webkit-margin-before: .80em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+/*border-bottom: 2px solid #ccc;*/
+margin-right: 15px;
+margin-left: 10px;
+padding-bottom: 5px;
+}
+
+.search-input {  
+    -webkit-margin-before: .10em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    /*border-bottom: 2px solid #ccc;*/
+    margin: 10px 15px 0px 10px;
+    padding-bottom: 5px;    
+    /*width: 100%;*/
+}
+
+.main-top-container{
+display: flex;
+}
+
+.main-top-container > div {
+    width: 33%;
+  }
+
+.main-top-container div:nth-child(2) {
+    text-align: right;
+}  
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    min-width: 300px;
+  }
+  
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  }
